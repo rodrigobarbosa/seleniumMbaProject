@@ -1,9 +1,5 @@
 package br.com.mbaiesp.test;
 
-import java.util.Arrays;
-
-import org.junit.Test;
-
 import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.anyOf;
 import static org.hamcrest.CoreMatchers.both;
@@ -23,7 +19,11 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
+
+import java.util.Arrays;
+
 import org.hamcrest.core.CombinableMatcher;
+import org.junit.Test;
 
 
 public class ExemplosAssert {
